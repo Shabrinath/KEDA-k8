@@ -7,4 +7,4 @@ KEDA allows Kubernetes to scale applications based on events. It provides event-
 - Event-driven autoscaling for Kubernetes workloads.
 - Supports multiple event sources like Azure Monitor, Kafka, RabbitMQ, Prometheus, and more.
 - Works alongside Kubernetes Horizontal Pod Autoscaler (HPA).
-- Lightweight and easy to deploy.
+- Lightweight and easy to deploy. 
