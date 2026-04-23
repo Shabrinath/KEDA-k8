@@ -1,18 +1,14 @@
-## Table of Contents
-
-- [KEDA (Kubernetes Event-driven Autoscaling)](#keda-kubernetes-event-driven-autoscaling)
-    - [Features](#features)
-    - [Why KEDA?](#why-keda)
-        - [HPA vs KEDA](#hpa-vs-keda)
-    - [Installation](#installation)
-    - [Example: Scaling Based on Cron Schedule](#example-scaling-based-on-cron-schedule)
-        - [Explanation](#explanation)
-    - [Example: Scaling Based on RabbitMQ Queue](#example-scaling-based-on-rabbitmq-queue)
-        - [Explanation](#explanation-1)
-        
 # KEDA (Kubernetes Event-driven Autoscaling)
 
 KEDA allows Kubernetes to scale applications based on events. It provides event-driven autoscaling for workloads, enabling applications to scale up or down based on metrics from external systems.
+
+## Table of Contents
+    - [Features](#features)
+    - [Why KEDA?](#why-keda)
+    - [HPA vs KEDA](#hpa-vs-keda)
+    - [Installation](#installation)
+    - [Example: Scaling Based on Cron Schedule](#example-scaling-based-on-cron-schedule)
+    - [Example: Scaling Based on RabbitMQ Queue](#example-scaling-based-on-rabbitmq-queue)
 
 ## Features
 
