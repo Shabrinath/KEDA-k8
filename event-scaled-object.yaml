@@ -1,0 +1,16 @@
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: rabbitmq-scaled-object
+  namespace: default
+spec:
+  scaleTargetRef:
+    name: your-deployment-name # Replace with your deployment name
+  minReplicaCount: 1
+  maxReplicaCount: 10
+  triggers:
+  - type: rabbitmq
+    metadata:
+      queueName: your-queue-name # Replace with your RabbitMQ queue name
+      host: RabbitMQConnectionString # Replace with your RabbitMQ connection string
+      queueLength: "10" # Replace with the desired queue length threshold
